@@ -1,6 +1,6 @@
 {
   "asOf": "2026-07-01",
-  "source": "Live StreetEasy pull 1 Jul 2026 via Claude in Chrome (authoritative). Swept UES 4-bed (10 results) + 5-bed (8) and every downtown Ecole area at $25-40k: Tribeca (4-bed 1; 5-bed 0), West Village (4-bed 2 = same 353 6th Ave townhouse listed twice #3A $36,750 / #UNIT3 $36,800; 5-bed 0), SoHo (4-bed 3; 5-bed 0), Greenwich Village (0), Flatiron (0), Gramercy Park (4-bed 1; 5-bed 0), Chelsea (0), East Village (4-bed 1). Result: 0 genuinely new addresses and 0 price drops - every in-scope live StreetEasy listing already in the store at unchanged prices. Review sheet ('NYC Property Review - Guignot') read first: all statuses already matched the store and no new Alex/Sophie notes to apply (the sheet still lists 20 East End Ave #10A as Shortlist, but it went in-contract 6/29 -> kept Unavailable per the no-resurface rule). Two previously-tombstoned listings still appear live but were NOT resurfaced: 401 East 60th #4ABC ($27,950, UES 5-bed) and 100 Barclay St #17A ($28,000, only Tribeca 4-bed) - both kept Unavailable. 350 West Broadway #4 ($40,000, SoHo) now shows live on StreetEasy (was Compass-only) - kept Rejected. 277 West 12th (West Village 5-bed, Rejected) no longer appears on StreetEasy. Off-market UES picks (525 Park, 920 Park, 218 E 79th, 1085 Park) and 440 W 20th (Chelsea 0 results) remain absent - still off-market pending agent confirmation. Cross-source-only Rejected listings (355 E 72nd #1, 236 E 15th) remain Rejected. Counts: 0 New / 9 Shortlist / 6 Maybe / 16 Rejected / 3 Unavailable.",
+  "source": "Live StreetEasy pull 1 Jul 2026 (AM) via Claude in Chrome (authoritative). Swept UES 4-bed (9 results) + 5-bed (8, one dup) and every downtown École area at $25-40k: Tribeca (4-bed 1), West Village (4-bed 2 = same 353 6th Ave townhouse twice, #UNIT3 $36,800 / #3A $36,750), SoHo (4-bed 3), Gramercy Park (4-bed 1), East Village (4-bed 1), Greenwich Village / Flatiron / Chelsea (0 each). Result: 0 genuinely new addresses, but 2 PRICE DROPS — both UES, both dated 7/1 (Douglas Elliman monthly reprice): (1) 26 East 63rd St [Shortlist] $33k→$30k — the #12BCDG unit was delisted 7/1 at $33k and re-listed the same day as #12B at $30,000; STAFF SUITE + full-time doorman now explicitly confirmed; (2) 300 East 79th #PHCD [Rejected] $40k→$35k (−12.5% per SE price history) — full-service penthouse, kept Rejected, logged for record. Review sheet ('NYC Property Review - Guignot') read first: all 16 rows matched the store's statuses and the Alex/Sophie notes column was empty — no decision changes to apply (sheet still lists 20 East End Ave #10A as Shortlist, but it went in-contract 6/29 → kept Unavailable per the no-resurface rule). Two previously-tombstoned listings still appear live but were NOT resurfaced: 401 East 60th #4ABC ($27,950, UES 5-bed) and 100 Barclay St #17A ($28,000, only Tribeca 4-bed) — both kept Unavailable. 350 West Broadway #4 ($40,000, SoHo) live on StreetEasy — kept Rejected. 277 West 12th (WV 5-bed, Rejected) still absent from SE. Off-market UES picks (525 Park, 920 Park, 218 E 79th, 1085 Park) and 440 W 20th (Chelsea 0 results) remain absent — still off-market pending agent confirmation. Cross-source-only Rejected listings (355 E 72nd #1, 236 E 15th) remain Rejected. Counts: 0 New / 9 Shortlist / 6 Maybe / 16 Rejected / 3 Unavailable.",
   "leads": [
     {
       "address": "404 East 76th Street #2B (The Impala)",
@@ -182,18 +182,18 @@
       "notes": "Condo, 2,882 sf, 3.5 baths (Douglas Elliman), 'Park Avenue Court', Carnegie Hill. Confirmed live 26 Jun."
     },
     {
-      "address": "26 East 63rd Street #12BCDG",
+      "address": "26 East 63rd Street #12B",
       "neighborhood": "Lenox Hill",
       "school": "LFNY",
       "beds": 4,
-      "staffRoom": null,
+      "staffRoom": "Y",
       "sqft": 2700,
-      "price": 33000,
-      "doorman": null,
-      "source": "https://streeteasy.com/building/the-leonori/12bcdg",
+      "price": 30000,
+      "doorman": "Y",
+      "source": "https://streeteasy.com/building/the-leonori/12b",
       "dateFound": "2026-06-24",
       "status": "Shortlist",
-      "notes": "Condo, 2,700 sf, 5.5 baths (Douglas Elliman), 'The Leonori'. Confirmed live 26, 28, 30 Jun & 1 Jul. Verify doorman/staff room.",
+      "notes": "⬇️ PRICE DROP 1 Jul: $33,000 → $30,000 ($3k/mo lower). Same combined unit relisted — #12BCDG was delisted 7/1/2026 at $33k (its own price history shows 'no changes') and re-listed the same day as #12B at $30,000 ($133/sf); available 8/7/2026. Condo, 2,700 sf, 8 rooms, 4BR/5.5ba (Douglas Elliman), 'The Leonori' (prewar, 1901). Listing now explicitly confirms a STAFF SUITE and FULL-TIME DOORMAN + elevator — both previously unverified. Strong Belgravia-equivalent Shortlist pick, now cheaper. Confirmed live 26, 28, 30 Jun & 1 Jul.",
       "images": [
         "https://photos.zillowstatic.com/fp/4672cba1dd52a9ffc1c636b249594e6e-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/a2571dd2580eef2c29028fe86f0b5f89-se_large_800_400.webp",
@@ -390,12 +390,12 @@
       "beds": 5,
       "staffRoom": null,
       "sqft": 4930,
-      "price": 40000,
+      "price": 35000,
       "doorman": "Y",
       "source": "https://streeteasy.com/building/300-east-79-street-new_york/phcd",
       "dateFound": "2026-06-17",
       "status": "Rejected",
-      "notes": "Penthouse, 5BR/4,930 sf, 4+ baths (Douglas Elliman) — top of budget, full-service. Confirmed live 26 Jun."
+      "notes": "⬇️ PRICE DROP 1 Jul: $40,000 → $35,000 (−12.5%, per StreetEasy price history 7/1/26). Penthouse spanning the top two interior floors + private roof terrace, 5BR/4 full + 2 half ba, ~4,930 sf ($85/sf), full-service (full-time doorman, elevator, gym, children's playroom, courtyard, live-in super), available now (Douglas Elliman). Remains Rejected (Alex, 26 Jun) — price drop logged for the record. Confirmed live 26 Jun & 1 Jul."
     },
     {
       "address": "9 East 82nd Street #2/3",
