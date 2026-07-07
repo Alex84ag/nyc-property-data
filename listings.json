@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-07-06",
-  "source": "asOf 6 Jul 2026 — LIVE PULL OK (Claude in Chrome connected; the 5 Jul run was degraded/no-browser). Review sheet 'NYC Property Review — Guignot' read first: the only actionable change was 141 Prince St #4 -> Rejected (Alex); the Alex/Sophie notes column was empty; 20 East End Ave #10A left Unavailable (in contract 6/29, no-resurface) despite the sheet showing Shortlist. Full live StreetEasy sweep: UES (16 live, deduped, both pages) + downtown/Ecole (SoHo, West Village, Tribeca, Gramercy Park, Chelsea, East Village, Greenwich Village, Flatiron). Findings: 2 genuinely NEW in-scope addresses — 165 East 66th St #19A (Lenox Hill/UES, $30k, 4BR, full-service Stonehenge rental building, listed today) and 366 Broadway #9A (Tribeca/Ecole, $38k, 4BR, but Rove Travel furnished/short-term operator — marginal, verify lease). 0 verified price drops. 180 East 88th St #20B flipped Shortlist->Unavailable (rental delisted; the unit is now FOR SALE at $6,695,000, '0 units for rent'). 126 East 62nd St #2 absent from today's UES pull (kept Maybe, verify). Off-market carry-overs unchanged (525/920/1085 Park, 218 E 79th, 440 W 20th). Slack alert sent (2 new). Counts: 3 New / 8 Shortlist / 6 Maybe / 17 Rejected / 4 Unavailable (38 listings).",
+  "asOf": "2026-07-07",
+  "source": "asOf 7 Jul 2026 — LIVE PULL OK (Claude in Chrome connected; one transient disconnect mid-sweep, retried clean). Review sheet 'NYC Property Review — Guignot' read first: all 17 rows already in sync with the store, the Alex/Sophie notes column empty, nothing to apply; 180 East 88th St #20B left Unavailable (rental gone / unit now for sale) despite the sheet still showing Shortlist, and 20 East End Ave #10A left Unavailable (in contract 6/29) — both per the availability fact + no-resurface rule. No decisions.json fallback present. Full live StreetEasy sweep: UES 4-bed (9) + 5-bed (7), and downtown/Ecole 4-bed (Tribeca 2, SoHo 3, West Village 3, Gramercy Park 1, East Village 1, Flatiron 0, Chelsea 0, Greenwich Village 0) + downtown 5-bed (SoHo 1 = 141 Prince Rejected/not resurfaced, West Village 0, Tribeca 0). Findings: 0 genuinely NEW in-scope addresses, 0 price drops — every listing on today's pull already in the store. The three carry-over New items (144 Waverly #1G, 165 E 66th #19A, 366 Broadway #9A) all re-confirmed live, still awaiting sheet triage. 126 East 62nd St #2 absent again from today's UES 4-bed pull (kept Maybe, verify). Off-market carry-overs unchanged (525/920/1085 Park, 218 E 79th, 440 W 20th). Open houses ahead: 145 Spring #PH Jul 7 (11-3), 422 E 72nd #32DE Jul 7 (12-1), 9 E 82nd #2/3 Jul 8 (5-6), 235 E 72nd Jul 8 (2-3). Slack: silent (nothing new). Counts: 3 New / 8 Shortlist / 6 Maybe / 17 Rejected / 4 Unavailable (38 listings).",
   "leads": [
     {
       "address": "404 East 76th Street #2B (The Impala)",
@@ -77,7 +77,7 @@
       "source": "https://streeteasy.com/building/180-east-93-street-new_york/4",
       "dateFound": "2026-06-17",
       "status": "Shortlist",
-      "notes": "Condo, 3,061 sf, 4 baths (Brown Harris Stevens) — good size for ~3,000 target. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul ($29,000). Confirmed live 6 Jul.",
+      "notes": "Condo, 3,061 sf, 4 baths (Brown Harris Stevens) — good size for ~3,000 target. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul ($29,000). Confirmed live 6 & 7 Jul.",
       "images": [
         "https://photos.zillowstatic.com/fp/466de7dc520ddfe5be4e299c8fc68853-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/3c82f7d0093ca2a25a2c75f8ab8c8605-se_large_800_400.webp",
@@ -157,7 +157,7 @@
       "source": "https://streeteasy.com/building/126-east-62-street-new_york/2",
       "dateFound": "2026-06-17",
       "status": "Maybe",
-      "notes": "4,000 sf townhouse floor-through, 3 baths (UbiQ) — verify building type. Confirmed live 26, 30 Jun, 1, 2, 3 & 4 Jul ($30,000). NB 6 Jul: absent from today's StreetEasy UES 4-bed live pull — verify availability (kept Maybe, not flipped).",
+      "notes": "4,000 sf townhouse floor-through, 3 baths (UbiQ) — verify building type. Confirmed live 26, 30 Jun, 1, 2, 3 & 4 Jul ($30,000). NB 6 & 7 Jul: absent from the StreetEasy UES 4-bed live pull two runs running — verify availability with agent (kept Maybe, not flipped).",
       "images": [
         "https://photos.zillowstatic.com/fp/24291bdc9ce397985dd631b2fc328f6a-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/abac2f5d2f88dec630ee5eb7b5cff7ea-se_large_800_400.webp",
@@ -193,7 +193,7 @@
       "source": "https://streeteasy.com/building/the-leonori/12b",
       "dateFound": "2026-06-24",
       "status": "Shortlist",
-      "notes": "⬇️ PRICE DROP 1 Jul: $33,000 → $30,000 ($3k/mo lower). Same combined unit relisted — #12BCDG was delisted 7/1/2026 at $33k (its own price history shows 'no changes') and re-listed the same day as #12B at $30,000 ($133/sf); available 8/7/2026. Condo, 2,700 sf, 8 rooms, 4BR/5.5ba (Douglas Elliman), 'The Leonori' (prewar, 1901). Listing now explicitly confirms a STAFF SUITE and FULL-TIME DOORMAN + elevator — both previously unverified. Strong Belgravia-equivalent Shortlist pick, now cheaper. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul. Confirmed live 6 Jul ($30,000).",
+      "notes": "⬇️ PRICE DROP 1 Jul: $33,000 → $30,000 ($3k/mo lower). Same combined unit relisted — #12BCDG was delisted 7/1/2026 at $33k (its own price history shows 'no changes') and re-listed the same day as #12B at $30,000 ($133/sf); available 8/7/2026. Condo, 2,700 sf, 8 rooms, 4BR/5.5ba (Douglas Elliman), 'The Leonori' (prewar, 1901). Listing now explicitly confirms a STAFF SUITE and FULL-TIME DOORMAN + elevator — both previously unverified. Strong Belgravia-equivalent Shortlist pick, now cheaper. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul. Confirmed live 6 & 7 Jul ($30,000).",
       "images": [
         "https://photos.zillowstatic.com/fp/4672cba1dd52a9ffc1c636b249594e6e-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/a2571dd2580eef2c29028fe86f0b5f89-se_large_800_400.webp",
@@ -359,7 +359,7 @@
       "source": "https://streeteasy.com/building/544-east-86th-street-new_york/phe",
       "dateFound": "2026-06-17",
       "status": "Shortlist",
-      "notes": "Penthouse, 5BR, 3,868 sf (SERHANT). Prime Yorkville/East End full-service. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul ($40,000). Confirmed live 6 Jul ($40,000).",
+      "notes": "Penthouse, 5BR, 3,868 sf (SERHANT). Prime Yorkville/East End full-service. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul ($40,000). Confirmed live 6 & 7 Jul ($40,000).",
       "images": [
         "https://photos.zillowstatic.com/fp/03b0f227c03d841cc20090497baa7598-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/47574eb236867c10a7e039bc2fc697b6-se_large_800_400.webp",
@@ -409,7 +409,7 @@
       "source": "https://streeteasy.com/building/9-east-82-street-new_york/23",
       "dateFound": "2026-06-24",
       "status": "Shortlist",
-      "notes": "4 baths (Brown Harris Stevens), off Fifth/Museum Mile. Re-confirmed live 27, 30 Jun, 1, 2 & 3 Jul ($40,000, StreetEasy UES 4-bed). Upgraded Maybe→Shortlist via review sheet 30 Jun (Alex/Sophie). Verify building type/doorman. Open house 5 Jul (11am-12:30pm). NB 4 Jul: NOT in today's StreetEasy UES 4-bed live pull (Jul-4 holiday; only 8 UES 4-beds showed vs 9 on 3 Jul) - but the open house is tomorrow 5 Jul, so kept Shortlist (not flipped Unavailable); confirm still live. Confirmed live 6 Jul (UES 4-bed pull, $40,000); the prior 4-Jul holiday absence is resolved — it is live; new open house Jul 8 (5–6 PM).",
+      "notes": "4 baths (Brown Harris Stevens), off Fifth/Museum Mile. Re-confirmed live 27, 30 Jun, 1, 2 & 3 Jul ($40,000, StreetEasy UES 4-bed). Upgraded Maybe→Shortlist via review sheet 30 Jun (Alex/Sophie). Verify building type/doorman. Open house 5 Jul (11am-12:30pm). NB 4 Jul: NOT in today's StreetEasy UES 4-bed live pull (Jul-4 holiday; only 8 UES 4-beds showed vs 9 on 3 Jul) - but the open house is tomorrow 5 Jul, so kept Shortlist (not flipped Unavailable); confirm still live. Confirmed live 6 Jul (UES 4-bed pull, $40,000); the prior 4-Jul holiday absence is resolved — it is live; open house Jul 8 (5–6 PM). Confirmed live 7 Jul ($40,000).",
       "images": [
         "https://photos.zillowstatic.com/fp/bab437b96f00c0276ff604030d10fb81-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/d27cfa704889ccf48c888473a6ff2bf2-se_large_800_400.webp",
@@ -459,7 +459,7 @@
       "source": "https://streeteasy.com/building/50-gramercy-park-north-new_york/8ab",
       "dateFound": "2026-06-17",
       "status": "Shortlist",
-      "notes": "Co-op on Gramercy Park, 4,710 sf, 4.5 baths (Douglas Elliman) — prime; near The École. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul. Confirmed live 6 Jul.",
+      "notes": "Co-op on Gramercy Park, 4,710 sf, 4.5 baths (Douglas Elliman) — prime; near The École. Confirmed live 26, 28, 30 Jun, 1, 2, 3 & 4 Jul. Confirmed live 6 & 7 Jul.",
       "images": [
         "https://photos.zillowstatic.com/fp/3c32941ca2301288ea5bb41ba4b31eeb-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/bfca9a54b53b91d6a8402c5769b1d5d1-se_large_800_400.webp",
@@ -523,7 +523,7 @@
       "source": "https://streeteasy.com/building/317-east-8-street-new_york/quad",
       "dateFound": "2026-06-26",
       "status": "Shortlist",
-      "notes": "Two-family home, 4BR/2.5ba, 4,217 sf (Leslie J. Garfield), East Village. ⚠️ Marginal fit — East Village sits outside the core École neighborhoods (~15-20 min to The École), two-family townhouse, no doorman, only 2.5 baths. Surfaced 26 Jun for review; still awaiting triage. — Shortlisted via dashboard decision 28 Jun (Alex). Re-confirmed live on StreetEasy (East Village 4-bed) 2, 3 & 4 Jul. Confirmed live 6 Jul.",
+      "notes": "Two-family home, 4BR/2.5ba, 4,217 sf (Leslie J. Garfield), East Village. ⚠️ Marginal fit — East Village sits outside the core École neighborhoods (~15-20 min to The École), two-family townhouse, no doorman, only 2.5 baths. Surfaced 26 Jun for review; still awaiting triage. — Shortlisted via dashboard decision 28 Jun (Alex). Re-confirmed live on StreetEasy (East Village 4-bed) 2, 3 & 4 Jul. Confirmed live 6 & 7 Jul.",
       "images": [
         "https://photos.zillowstatic.com/fp/c55c50363d102f779591bc78a0da7290-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/c0b88bb1c2d58be2a022ff0946b468d1-se_large_800_400.webp",
@@ -567,7 +567,7 @@
       "source": "https://streeteasy.com/building/353-6-avenue-new_york/3a",
       "dateFound": "2026-06-17",
       "status": "Maybe",
-      "notes": "Townhouse, 2,700 sf, 3 baths; listed by Rove Travel LLC — likely furnished/short-term, verify lease terms. Confirmed live 26, 30 Jun, 1, 2, 3 & 4 Jul. NB 30 Jun: StreetEasy shows a parallel listing of the same townhouse as #UNIT3 at $36,800 (same Rove Travel LLC, 2,700 sf/3ba) — same property, deduped by address; treated as this existing #3A row. NB 4 Jul: parallel Rove Travel listings persist on SE (#UNIT3 $36,800 / #3 $37,000) - same townhouse, immaterial +/-$250 wobble (not a price drop); kept as this #3A row at $36,750.",
+      "notes": "Townhouse, 2,700 sf, 3 baths; listed by Rove Travel LLC — likely furnished/short-term, verify lease terms. Confirmed live 26, 30 Jun, 1, 2, 3 & 4 Jul. NB 30 Jun: StreetEasy shows a parallel listing of the same townhouse as #UNIT3 at $36,800 (same Rove Travel LLC, 2,700 sf/3ba) — same property, deduped by address; treated as this existing #3A row. NB 4 Jul: parallel Rove Travel listings persist on SE (#UNIT3 $36,800 / #3 $37,000) - same townhouse, immaterial +/-$250 wobble (not a price drop); kept as this #3A row at $36,750. Confirmed live 7 Jul (dual Rove listings #UNIT3 $36,800 / #3 $37,000 persist — same wobble, not a drop).",
       "images": [
         "https://photos.zillowstatic.com/fp/367e7bef55b1b448e403535a7316a0bd-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/cb86e96f262d03874c4341c58ae08100-se_large_800_400.webp",
@@ -603,7 +603,7 @@
       "source": "https://streeteasy.com/building/145-spring-street-new_york/ph",
       "dateFound": "2026-06-17",
       "status": "Maybe",
-      "notes": "Penthouse, 3,000 sf, 3 baths (Status Capital) — prime SoHo, top of budget; verify building type. Confirmed live 26, 30 Jun, 1, 2, 3 & 4 Jul.",
+      "notes": "Penthouse, 3,000 sf, 3 baths (Status Capital) — prime SoHo, top of budget; verify building type. Confirmed live 26, 30 Jun, 1, 2, 3 & 4 Jul. Confirmed live 7 Jul ($40,000); open house Jul 7 (11AM–3PM).",
       "images": [
         "https://photos.zillowstatic.com/fp/ea069b0420962ba1b70e9de548c60ad5-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/e78cbc2d7c5cf420a1a3dd760814fc52-se_large_800_400.webp",
@@ -647,7 +647,7 @@
       "source": "https://streeteasy.com/building/144-waverly-place-new_york/1g",
       "dateFound": "2026-07-03",
       "status": "New",
-      "notes": "NEW 3 Jul. Brand-new-development duplex in a four-family house (144 Waverly Pl, West Village, 1910, 4 units / 4 stories), 10 rooms, marketed 4BR/4ba but really 3BR convertible-to-4 (per the listing). Coffered ceilings, chef's kitchen (marble waterfall island), private outdoor space / garden, central air, W/D. VIRTUAL doorman only (not full-service); no sqft published; top of budget ($39,995). Ecole area but marginal - convertible bed count, no staff room, not full-service. Listed 7/2/2026, available now (Aura NYC LLC). Confirmed live via StreetEasy WV 4-bed pull 3 & 4 Jul. Re-confirmed live 6 Jul (WV 4-bed pull); still awaiting sheet-append.",
+      "notes": "NEW 3 Jul. Brand-new-development duplex in a four-family house (144 Waverly Pl, West Village, 1910, 4 units / 4 stories), 10 rooms, marketed 4BR/4ba but really 3BR convertible-to-4 (per the listing). Coffered ceilings, chef's kitchen (marble waterfall island), private outdoor space / garden, central air, W/D. VIRTUAL doorman only (not full-service); no sqft published; top of budget ($39,995). Ecole area but marginal - convertible bed count, no staff room, not full-service. Listed 7/2/2026, available now (Aura NYC LLC). Confirmed live via StreetEasy WV 4-bed pull 3 & 4 Jul. Re-confirmed live 6 & 7 Jul (WV 4-bed pull, still $39,995); still awaiting sheet-append.",
       "images": [
         "https://photos.zillowstatic.com/fp/88c40a92cb354a556ad9a9175b346e26-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/ab054ab05f6c5fa084fb2040914f17f1-se_large_800_400.webp",
@@ -669,7 +669,7 @@
       "source": "https://streeteasy.com/building/165-east-66th-by-stonehenge/19a",
       "dateFound": "2026-07-06",
       "status": "New",
-      "notes": "NEW 6 Jul. Full-floor 4BR/3ba, 2,328 sf, 7 rooms, with a WRAPAROUND TERRACE (E/S/W exposures), brand-new gut renovation, fireplace, W/D in unit. In '165 East 66th by Stonehenge' — a FULL-SERVICE RENTAL building (150 units, 1957): full-time doorman, elevator, live-in super, children's playroom, gym, bike room, courtyard, laundry. Prime Lenox Hill (66th at Lexington), short hop to LFNY. Listed TODAY (7/6), available now, NO broker fee (Stonehenge NYC LLC). Sqft (2,328) a touch under the ~3,000 target and no dedicated staff room, but the terrace + full-service building + fresh reno make it a strong UES pick. Confirmed live via StreetEasy UES 4-bed pull 6 Jul.",
+      "notes": "NEW 6 Jul. Full-floor 4BR/3ba, 2,328 sf, 7 rooms, with a WRAPAROUND TERRACE (E/S/W exposures), brand-new gut renovation, fireplace, W/D in unit. In '165 East 66th by Stonehenge' — a FULL-SERVICE RENTAL building (150 units, 1957): full-time doorman, elevator, live-in super, children's playroom, gym, bike room, courtyard, laundry. Prime Lenox Hill (66th at Lexington), short hop to LFNY. Listed 7/6, available now, NO broker fee (Stonehenge NYC LLC). Sqft (2,328) a touch under the ~3,000 target and no dedicated staff room, but the terrace + full-service building + fresh reno make it a strong UES pick. Confirmed live via StreetEasy UES 4-bed pull 6 Jul; re-confirmed live 7 Jul (still $30,000). Still awaiting sheet triage — see ➕ add-to-sheet.",
       "images": [
         "https://photos.zillowstatic.com/fp/27a5ef60b531207bd511e88822c89b00-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/20192963b77329ec71866d4a607dbbda-se_large_800_400.webp",
@@ -691,7 +691,7 @@
       "source": "https://streeteasy.com/building/the-collect-pond-house/9a",
       "dateFound": "2026-07-06",
       "status": "New",
-      "notes": "NEW 6 Jul. 4BR/2.5ba, 3,000 sf co-op loft at 'The Collect Pond House', prime Tribeca (preferred École area). ⚠️ Listed by Rove Travel LLC — a furnished/short-term corporate-rental operator (same operator as 353 Sixth Ave); 57 staged photos. Only 2.5 baths and a co-op (co-ops typically restrict subletting/short-term). Marginal: verify a 12-month UNFURNISHED family lease is possible before pursuing. Confirmed live via StreetEasy Tribeca 4-bed pull 6 Jul.",
+      "notes": "NEW 6 Jul. 4BR/2.5ba, 3,000 sf co-op loft at 'The Collect Pond House', prime Tribeca (preferred École area). ⚠️ Listed by Rove Travel LLC — a furnished/short-term corporate-rental operator (same operator as 353 Sixth Ave); 57 staged photos. Only 2.5 baths and a co-op (co-ops typically restrict subletting/short-term). Marginal: verify a 12-month UNFURNISHED family lease is possible before pursuing. Confirmed live via StreetEasy Tribeca 4-bed pull 6 Jul; re-confirmed live 7 Jul (still $38,000). Still awaiting sheet triage — see ➕ add-to-sheet.",
       "images": [
         "https://photos.zillowstatic.com/fp/ae3d329089fbb9c5daa9c87b771b37d9-se_large_800_400.webp",
         "https://photos.zillowstatic.com/fp/068ead99362e325ebbf492478e07c139-se_large_800_400.webp",
