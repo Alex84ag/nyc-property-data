@@ -1,6 +1,6 @@
 {
- "asOf": "2026-08-12",
- "source": "asOf 12 Aug 2026 - 0 new, 0 price drops, 0 status flips. Full live StreetEasy sweep via Claude in Chrome (UES + All-Downtown + Chelsea/Flatiron cross-checks): every tracked live listing confirmed at unchanged price; 206 E 20th #TH (11 Aug find) confirmed live. Store unchanged from 11 Aug; close-out completed by orchestrator after the scheduled session crashed repeatedly at the file-update stage.",
+ "asOf": "2026-08-13",
+ "source": "asOf 13 Aug 2026 - 0 new, 0 price drops, 1 status flip. Full live StreetEasy sweep via Claude in Chrome (UES + All-Downtown + cross-checks): all tracked live listings at unchanged prices. FLIP: 206 E 20th #TH (11 Aug whole-townhouse find) went 'Temporarily off market 8/13/2026' -> New→Unavailable per no-resurface. Close-out completed by orchestrator after the scheduled session wedged at the file-update stage.",
  "leads": [
   {
    "address": "404 East 76th Street #2B (The Impala)",
@@ -976,8 +976,8 @@
    "doorman": "N",
    "source": "https://streeteasy.com/building/206-east-20-street-new_york/th",
    "dateFound": "2026-08-11",
-   "status": "New",
-   "notes": "NEW 11 Aug. Entire Gramercy townhouse — the full 5-level two-family house (garden duplex + penthouse triplex combined), 8BR/7.5ba, 20 rooms, ~4,600 sf, private garden + roof deck + terraces; gut-renovated 2018 (ChoShields, Passive House standard). Listed by owner (no broker fee), available 9/3/2026, 12 days on market. ⬇️ PRICE DROP: $44,500 → $38,500 (−13.5%) on 8/5/26. École backup zone. ⚠️ No doorman / two-family townhouse (not full-service) — weak fit vs the full-service ~3,000 sf preference, but in-scope by area/price/beds. Distinct from 206 East 20th Street #PH (5BR penthouse portion, $28,000, Unavailable) — this is the whole-house offering. Verify staff room / layout with owner.",
+   "status": "Unavailable",
+   "notes": "NEW 11 Aug. Entire Gramercy townhouse — the full 5-level two-family house (garden duplex + penthouse triplex combined), 8BR/7.5ba, 20 rooms, ~4,600 sf, private garden + roof deck + terraces; gut-renovated 2018 (ChoShields, Passive House standard). Listed by owner (no broker fee), available 9/3/2026, 12 days on market. ⬇️ PRICE DROP: $44,500 → $38,500 (−13.5%) on 8/5/26. École backup zone. ⚠️ No doorman / two-family townhouse (not full-service) — weak fit vs the full-service ~3,000 sf preference, but in-scope by area/price/beds. Distinct from 206 East 20th Street #PH (5BR penthouse portion, $28,000, Unavailable) — this is the whole-house offering. Verify staff room / layout with owner. || 13 Aug: \"Temporarily off market 8/13/2026\" on the listing page — flipped New→Unavailable (no-resurface rule applies); gone 2 days after surfacing.",
    "images": [
     "https://photos.zillowstatic.com/fp/abca589aca1d0bec92e044869dc4bf8e-se_large_800_400.webp",
     "https://photos.zillowstatic.com/fp/c9ccc90cceb778d89cf9c1d2784e058a-se_large_800_400.webp",
