@@ -1,6 +1,6 @@
 {
- "asOf": "2026-08-13",
- "source": "asOf 13 Aug 2026 - 0 new, 0 price drops, 1 status flip. Full live StreetEasy sweep via Claude in Chrome (UES + All-Downtown + cross-checks): all tracked live listings at unchanged prices. FLIP: 206 E 20th #TH (11 Aug whole-townhouse find) went 'Temporarily off market 8/13/2026' -> New→Unavailable per no-resurface. Close-out completed by orchestrator after the scheduled session wedged at the file-update stage.",
+ "asOf": "2026-08-14",
+ "source": "asOf 14 Aug 2026 - PARTIAL sweep: newest-listings check only (Manhattan-wide page 1, 13 results) - 0 new in-scope, 0 drops seen. Full tracked-listing verification deferred to the next healthy run: repeated Chrome-extension disconnects killed three attempts; statuses and prices carry unchanged from the verified 13 Aug state. Close-out by orchestrator.",
  "leads": [
   {
    "address": "404 East 76th Street #2B (The Impala)",
