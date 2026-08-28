@@ -1,6 +1,6 @@
 {
- "asOf": "2026-08-26",
- "source": "asOf 26 Aug 2026 - FULL sweep via Claude in Chrome (1-day gap since 25 Aug). UES (primary): 4-bed 11 live, 5-bed 5 live - all already tracked at current prices, no price changes. Ecole (backup) via per-neighborhood StreetEasy slugs (beds:4-5): Tribeca 2 live (49 Chambers, 27 Harrison), SoHo 1 (100 Vandam #10A = same owner unit as tracked #11A, floor relabel - not new), Greenwich Village 1 (43 W 12th), East Village 1 (317 E 8th); West Village / Gramercy / Flatiron / Chelsea all 0. ZERO genuinely-new listings and ZERO price drops this run. Review-sheet decisions applied: 40 East 66th #4C New->Shortlist (sheet had Maybe+Shortlist rows), 288 East 88th #19B New->Shortlist, 255 East 74th #10A New->Maybe; notes col empty on all sheet rows. No-resurface holds: 20 East End, 180 E 88th, 50 Gramercy, 26 E 63rd #12B, 401 E 60th etc. stay Unavailable despite any sheet Shortlist (availability fact).",
+ "asOf": "2026-08-28",
+ "source": "asOf 28 Aug 2026 - PARTIAL sweep (27 Aug had no run - machine asleep). Verified today per the session log before it died on a Mac sleep: UES pulls and Ecole hoods through Greenwich Village all clean - 0 new, 0 price drops, 43 W 12th #1 unchanged; WV/SoHo/Flatiron/Gramercy/Chelsea all 0. East Village NOT verified today (317 E 8th #QUAD, Shortlist, carries its 26 Aug state). Close-out by orchestrator; Chrome bridge was down post-sleep. Next healthy run re-verifies.",
  "leads": [
   {
    "address": "404 East 76th Street #2B (The Impala)",
